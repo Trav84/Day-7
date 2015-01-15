@@ -29,13 +29,20 @@ do {
 
 
 $( document ).ready(function() {
+
+	var control = Math.ceil(Math.random() * 10);
  
 	$('#play-button').click(function(event) {
 
-		alert("You clicked the play button");
+			// $('#img1').slideUp( 900 );
 
-			$('.slot-box').slideUp( 800 );
-
+			do {
+				$('.img1').hide().delay(800);
+				$('.img2').show().delay(800);
+				$('.img2').hide().delay(800);
+				$('.img3').show().delay(800);
+				control++;
+			} while (control < 20);
 
 	}); 
 });

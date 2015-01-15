@@ -1,3 +1,5 @@
+
+
 .header {
 	text-align:center;
 
@@ -15,12 +17,25 @@
 	text-align: center;
 
 	.slot-box {
-		background-color:red;
 		display:inline-block;
 		margin: 0 auto;
 		width:8em;
-		height:8em;
+		// height:8em;
+		// background-image:url(../images/number1.jpg);
+		// background-repeat:no-repeat;
+		// background-size:cover;
+
 	}
+
+	.img2 {
+		display:none;
+	}
+
+	.img3 {
+		display:none;
+	}
+
+
 
 	.play-button-wrapper {
 		display:block;

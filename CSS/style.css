@@ -9,11 +9,13 @@
   margin-top: 8em;
   text-align: center; }
   .slot-machine-wrapper .slot-box {
-    background-color: red;
     display: inline-block;
     margin: 0 auto;
-    width: 8em;
-    height: 8em; }
+    width: 8em; }
+  .slot-machine-wrapper .img2 {
+    display: none; }
+  .slot-machine-wrapper .img3 {
+    display: none; }
   .slot-machine-wrapper .play-button-wrapper {
     display: block;
     margin: 0 auto;
