@@ -1,0 +1,22 @@
+.header {
+  text-align: center; }
+  .header h1 {
+    margin-top: 1em;
+    font-size: 4em;
+    font-weight: 500; }
+
+.slot-machine-wrapper {
+  margin-top: 8em;
+  text-align: center; }
+  .slot-machine-wrapper .slot-box {
+    background-color: red;
+    display: inline-block;
+    margin: 0 auto;
+    width: 8em;
+    height: 8em; }
+  .slot-machine-wrapper .play-button-wrapper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em; }
+
+/*# sourceMappingURL=style.css.map */
