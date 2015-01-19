@@ -1,3 +1,14 @@
+var slotArray = new Array();
+
+slotArray[0] = new Image();
+slotArray[0].src = "../images/number1.jpg";
+
+slotArray[1] = new Image();
+slotArray[1].src = "../images/number2.jpg";
+
+slotArray[2] = new Image();
+slotArray[2].src = "../images/number3.jpg";
+
 
 do {
 
@@ -34,15 +45,32 @@ $( document ).ready(function() {
  
 	$('#play-button').click(function(event) {
 
+			var randomNum = Math.floor(Math.random() * 3);
+			console.log(randomNum);
+
+			$('#slot1').html(slotArray[randomNum]);
+			randomNum = Math.floor(Math.random() * 3);
+			console.log(randomNum);
+			$('#slot2').html(slotArray[randomNum]);
+			// randomNum = Math.floor(Math.random() * 3);
+			// $('#slot13').html(slotArray[randomNum]);
+
 			// $('#img1').slideUp( 900 );
 
-			do {
-				$('.img1').hide().delay(800);
-				$('.img2').show().delay(800);
-				$('.img2').hide().delay(800);
-				$('.img3').show().delay(800);
-				control++;
-			} while (control < 20);
-
+			// do {
+			// 	$('.img1').hide().delay(800);
+			// 	$('.img2').show().delay(800);
+			// 	$('.img2').hide().delay(800);
+			// 	$('.img3').show().delay(800);
+			// 	control++;
+			// } while (control < 20);
+		
+//     	$(function () {
+// 		    var parent = $(".slot-box");
+// 		    var divs = parent.children();
+// 		    while (divs.length) {
+//         	parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+//     }
+// });
 	}); 
 });
