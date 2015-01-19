@@ -7,7 +7,7 @@
     width: 75%;
     margin: 0 auto;
     margin-top: 0.5em;
-    padding: 1em 0;
+    padding: 0.5em 0;
     background: #b3dced;
     /* Old browsers */
     background: -moz-linear-gradient(top, #b3dced 0%, #29b8e5 50%, #bce0ee 100%);
@@ -32,9 +32,25 @@
     display: inline-block;
     margin: 0 auto;
     width: 8em; }
+  .slot-machine-wrapper .ratio-box {
+    display: inline-block;
+    font-size: 1.5em; }
   .slot-machine-wrapper .play-button-wrapper {
     display: block;
     margin: 0 auto;
-    margin-top: 1em; }
+    margin: 2em 0; }
+  .slot-machine-wrapper #play-button {
+    font-size: 2em; }
+  .slot-machine-wrapper .dialouge-box {
+    margin-bottom: 1em;
+    font-size: 1.5em; }
+  .slot-machine-wrapper .wins {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 1em; }
+  .slot-machine-wrapper .losses {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 1em; }
 
 /*# sourceMappingURL=style.css.map */

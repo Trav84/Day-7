@@ -10,7 +10,7 @@
 		width:75%;
 		margin:0 auto;
 		margin-top:0.5em;
-		padding: 1em 0;
+		padding: 0.5em 0;
 		background: rgb(179,220,237); /* Old browsers */
 		background: -moz-linear-gradient(top,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(179,220,237,1)), color-stop(50%,rgba(41,184,229,1)), color-stop(100%,rgba(188,224,238,1))); /* Chrome,Safari4+ */
@@ -23,7 +23,6 @@
 	}
 }
 
-
 .slot-machine-wrapper {
 	margin-top: 3em;
 	text-align: center;
@@ -32,28 +31,38 @@
 		display:inline-block;
 		margin: 0 auto;
 		width:8em;
-		// height:8em;
-		// background-image:url(../images/number1.jpg);
-		// background-repeat:no-repeat;
-		// background-size:cover;
-
 	}
 
-	.img2 {
-		//display:none;
+	.ratio-box {
+		display:inline-block;
+		font-size: 1.5em;
 	}
-
-	.img3 {
-		//display:none;
-	}
-
-
 
 	.play-button-wrapper {
 		display:block;
 		margin:0 auto;
-		margin-top:1em;
+		margin:2em 0;
 	}
 
+	#play-button {
+		font-size:2em;
+	}
+
+	.dialouge-box {
+		margin-bottom: 1em;
+		font-size: 1.5em;
+	}
+
+	.wins {
+		display:inline-block;
+		font-size: 1.5em;
+		margin-right:1em;
+	}
+
+	.losses {
+		display:inline-block;
+		font-size: 1.5em;
+		margin-right:1em;
+	}
 
 }
